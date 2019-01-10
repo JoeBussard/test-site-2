@@ -28,6 +28,7 @@ body {
 
 .dropdown-container {
   margin:0px;
+  background:black;
   display:block;
 }
 
@@ -38,7 +39,7 @@ body {
 }
 
 .dropdown-container ul li {
-  padding:1px;
+  padding:0px 4px 0px 4px;
   margin: 0px;
   display:inline;
   background:black;
@@ -65,14 +66,32 @@ body {
 }
 
 .dropdown-contents {
-  position:relative;
+  position:absolute;
   visibility:hidden;
-  display:none;
+  width:131px;
 }
 
 .dropdown-trigger:hover .dropdown-contents {
   position:absolute;
-  display:inline-block;
+  display:block;
   background:green *important;
   visibility:visible;
 }
+
+.main-body-container{
+  width:90vw;
+  margin:auto;
+}
+
+
+
+footer {
+  font-size:10px;
+  margin:0px;
+  opacity:85%;
+  text-align:center;
+}
+
+
+
+
